@@ -1,0 +1,108 @@
+/* font-family: 'Raleway', sans-serif;
+   font-family: 'Anton', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #323232;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  margin-top: 5%;
+  line-height: 8rem;
+  font-size: 5rem;
+  color: #ff1e56;
+  text-shadow: 1px 1px white;
+}
+
+.drum-kit {
+  height: 60px;
+  width: 60px;
+}
+
+.container {
+  margin-top: 10%;
+  display: inline-block;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid black;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  color: black;
+  text-shadow: 1px 1px white;
+  line-height: 2;
+  font-size: 3rem;
+  text-align: start;
+
+
+
+  margin: 10px;
+  padding: 5px;
+  font-family: "Anton", sans-serif;
+}
+
+
+
+.press {
+  box-shadow: 0 3px 4px 0 white;
+  opacity: 0.5;
+}
+
+footer {
+  margin-top: 10%;
+  font-size: 0.8rem;
+  color: antiquewhite;
+}
+
+#love {
+  color: red;
+}
+
+.A {
+  background: url(images/tom1.png);
+  background-position: center;
+}
+
+.S {
+  background: url(images/tom2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.D {
+  background: url(images/tom3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.F {
+  background: url(images/tom4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.J {
+  background: url(images/snare.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.K {
+  background: url(images/crash.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.L {
+  background: url(images/kick.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
